@@ -1,0 +1,186 @@
+diff all
+
+# version
+# EmuFlight / CLRACINGF4 (CLR4) 0.4.0 Aug 19 2021 / 14:54:51 (a5e2673e4) MSP API: 1.51
+
+board_name
+manufacturer_id
+mcu_id 002c00393339471339353438
+signature
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name NEILFPV
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature TELEMETRY
+
+# beeper
+
+# beacon
+
+# map
+map RETA1234
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 2 1900 2100 0 0
+aux 1 1 3 1900 2100 0 0
+aux 2 35 0 1300 1700 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set gyro_sync_denom = 2
+set gyro_lowpass_hz_roll = 0
+set gyro_lowpass_hz_pitch = 0
+set gyro_lowpass_hz_yaw = 0
+set imuf_roll_q = 10000
+set imuf_pitch_q = 10000
+set imuf_yaw_q = 10000
+set imuf_w = 16
+set dynamic_gyro_notch_q = 450
+set dynamic_gyro_notch_count = 4
+set dynamic_gyro_notch_min_hz = 70
+set smith_predict_enabled = OFF
+set acc_calibration = 29,-80,-114
+set rssi_channel = 12
+set serialrx_provider = CRSF
+set blackbox_p_ratio = 64
+set align_board_yaw = 180
+set vbat_scale = 168
+set deadband = 3
+set yaw_deadband = 3
+set osd_warn_arming_disable = ON
+set osd_warn_batt_not_full = ON
+set osd_warn_batt_warning = ON
+set osd_warn_batt_critical = ON
+set osd_warn_visual_beeper = ON
+set osd_warn_crash_flip = ON
+set osd_warn_esc_fail = ON
+set osd_warn_core_temp = ON
+set osd_warn_rc_smoothing = ON
+set osd_warn_dji = ON
+set osd_vbat_pos = 2072
+set osd_rssi_pos = 2136
+set osd_tim_2_pos = 2168
+set osd_avg_cell_voltage_pos = 2104
+set debug_mode = GYRO_SCALED
+
+# profile
+profile 0
+
+set dterm_dyn_notch_q = 500
+set dterm_abg_alpha = 650
+set dterm_lowpass_type = PT3
+set dterm_lowpass_hz_roll = 120
+set dterm_lowpass_hz_pitch = 120
+set dterm_lowpass_hz_yaw = 120
+set dterm_lowpass2_type = BIQUAD
+set dterm_lowpass2_hz_roll = 0
+set dterm_lowpass2_hz_pitch = 0
+set dterm_lowpass2_hz_yaw = 0
+set spa_roll_p = 100
+set spa_roll_i = 100
+set spa_roll_d = 100
+set spa_pitch_p = 100
+set spa_pitch_i = 100
+set spa_pitch_d = 100
+set spa_yaw_p = 100
+set spa_yaw_i = 100
+set spa_yaw_d = 100
+set iterm_relax_cutoff = 10
+set feathered_pids = 50
+set i_decay = 1
+set emu_boost = 0
+set emu_boost_yaw = 0
+set emu_boost_limit = 0
+set emu_boost_limit_yaw = 0
+set p_pitch = 67
+set i_pitch = 90
+set d_pitch = 38
+set p_roll = 63
+set i_roll = 80
+set d_roll = 35
+set p_yaw = 85
+set i_yaw = 90
+set d_yaw = 0
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+set thr_expo = 20
+set roll_rc_rate = 128
+set pitch_rc_rate = 128
+set yaw_rc_rate = 110
+set roll_expo = 55
+set pitch_expo = 50
+set yaw_expo = 50
+set tpa_rate_p = 60
+set tpa_rate_i = 100
+set tpa_rate_d = 60
+set tpa_breakpoint = 1300
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+#
